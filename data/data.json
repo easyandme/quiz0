@@ -1,0 +1,734 @@
+[
+  {
+    "describe": "<b>这首歌来自哪部电影？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/a.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(35-25+1))+22",
+      "describe": "变形金刚",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "速度与激情"
+    },
+    "C": {
+      "describe": "美国队长"
+    }
+  },
+  {
+    "describe": "<b>这段启动声音来自哪个系统？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/Windows95.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "Windows Me"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(40-30+1))+33",
+      "describe": "Windows 95",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "Windows 2000"
+    }
+  },
+  {
+    "describe": "<b>这段音频来自哪个游戏？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/b.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "冒险岛"
+    },
+    "B": {
+      "describe": "魂斗罗"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(35-25+1))+25",
+      "describe": "超级玛丽",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌是哪部电影的主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/c.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "何以笙箫默"
+    },
+    "B": {
+      "straw": "Math.floor(Math.random()*(29-21+1))+21",
+      "describe": "小时代",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "左耳"
+    }
+  },
+  {
+    "describe": "<b>这个片段来自谁的歌？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/d.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "张韶涵"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(34-24+1))+24",
+      "describe": "周杰伦",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "方大同"
+    }
+  },
+  {
+    "describe": "<b>这首歌是哪部日本连续剧主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/e.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "血疑"
+    },
+    "B": {
+      "describe": "追捕"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(45-40+1))+35",
+      "describe": "排球女将",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部电视剧？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/f.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(22-15+1))+15",
+      "describe": "爱情公寓",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "欢乐家庭"
+    },
+    "C": {
+      "describe": "一起来看流星雨"
+    }
+  },
+  {
+    "describe": "<b>这是游戏《仙剑奇侠传》中什么时候的背景音乐？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/g.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "比武招亲"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(35-30+1))+27",
+      "describe": "战斗胜利",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "等级提升"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪个综艺节目？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/h.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "奔跑吧兄弟"
+    },
+    "B": {
+      "describe": "天天向上"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(22-15+1))+15",
+      "describe": "快乐大本营",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌叫什么名字？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/TFBOYS.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "魔法城堡"
+    },
+    "B": {
+      "describe": "左手右手"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(20-10+1))+12",
+      "describe": "青春修炼手册",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这段开头来自哪部样板戏？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/i.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "智取威虎山"
+    },
+    "B": {
+      "describe": "沙家浜"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(45-40+1))+43",
+      "describe": "红灯记",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这段歌曲来自哪部港剧？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/j.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "陈真"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(40-35+1))+37",
+      "describe": "霍元甲",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "上海滩"
+    }
+  },
+  {
+    "describe": "<b>这段旋律来自那首歌？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/k.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(30-25+1))+23",
+      "describe": "流星雨",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "第一时间"
+    },
+    "C": {
+      "describe": "烟火的季节"
+    }
+  },
+  {
+    "describe": "<b>这首歌是圣斗士哪一篇的主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/l.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "冥界篇"
+    },
+    "B": {
+      "describe": "天界篇"
+    },
+   "C": {
+      "score": "Math.floor(Math.random()*(30-25+1))+25",
+      "describe": "冥王十二宫篇",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部动画片？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/m.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "猫和老鼠"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(35-25+1))+25",
+      "describe": "大力水手",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "米老鼠和唐老鸭"
+    }
+  },
+  {
+    "describe": "<b>这首歌叫什么名字？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/n.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "花仙子之歌"
+    },
+    "B": {
+      "describe": "健康歌"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(35-30+1))+28",
+      "describe": "我爱洗澡",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌是谁唱的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/o.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "韦唯"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(45-35+1))+35",
+      "describe": "潘美辰",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "邝美云"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部电视剧的主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/p.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(45-35+1))+43",
+      "describe": "八月桂花香",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "一剪梅"
+    },
+    "C": {
+      "describe": "一帘幽梦"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部动画片？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/q.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "哪吒"
+    },
+    "B": {
+      "describe": "黑猫警长"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(31-23+1))+23",
+      "describe": "葫芦兄弟",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首《天黑黑》是谁的成名曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/r.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "王菲"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(32-22+1))+22",
+      "describe": "孙燕姿",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "张惠妹"
+    }
+  },
+  {
+    "describe": "<b>这段音乐来自哪个动画片的开头曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/yintao.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "樱桃小丸子"
+    },
+    "B": {
+      "describe": "魔女宅急便"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(33-23+1))+23",
+      "describe": "哆啦A梦",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌叫什么名字？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/s.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "爱江山更爱美人"
+    },
+    "B": {
+      "describe": "涛声依旧"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(45-35+1))+35",
+      "describe": "新鸳鸯蝴蝶梦",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>来自《不能说的秘密》的这段音乐是几只手弹的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/t.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "2只"
+    },
+    "B": {
+      "describe": "3只"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(28-22+1))+22",
+      "describe": "4只",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌是哪个动画片的片头曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/u.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(34-24+1))+24",
+      "describe": "灌篮高手",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "足球小将"
+    },
+    "C": {
+      "describe": "棒球英豪"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部电影？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/v.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(50-45+1))+45",
+      "describe": "冰山上的来客",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "阿诗玛"
+    },
+    "C": {
+      "describe": "柳堡的故事"
+    }
+  },
+  {
+    "describe": "<b>“啊!朋友再见”这一句是哪部电影的插曲呢？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/w.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "再见了，姑娘"
+    },
+    "B": {
+      "describe": "北非谍影"
+    },
+    "C": {
+      "score": "Math.floor(Math.random()*(45-40+1))+40",
+      "describe": "桥",
+      "bonus": 10
+    }
+  },
+  {
+    "describe": "<b>这首歌是哪部动画片的主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/x.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "飞天小女警"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(20-10+1))+12",
+      "describe": "小马宝莉",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "彩虹小马"
+    }
+  },
+  {
+    "describe": "<b>这首歌是《还珠格格》第几部的主题曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/y.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(33-23+1))+23",
+      "describe": "第一部",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "第二部"
+    },
+    "C": {
+      "describe": "第三部"
+    }
+  },
+  {
+    "describe": "<b>这首歌是哪部电影中的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/z.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "蓝色生死恋"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(32-25+1))+25",
+      "describe": "我的野蛮女友",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "色即是空"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部电影？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/Unchained_Melody.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "魂断蓝桥"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(40-30+1))+33",
+      "describe": "人鬼情未了",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "蒂芙尼的早餐"
+    }
+  },
+  {
+    "describe": "<b>这段台词来自星爷哪部电影？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/aa.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(35-22+1))+22",
+      "describe": "唐伯虎点秋香",
+      "bonus": 10
+    },
+    "B": {                                                                 
+      "describe": "九品芝麻官"
+    },
+    "C": {
+      "describe": "武状元苏乞儿"
+    }
+  },
+  {
+    "describe": "<b>这段音乐来自哪个动画片的开头曲？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ab.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(30-25+1))+25",
+      "describe": "蓝猫淘气三千问",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "海尔兄弟"
+    },
+    "C": {
+      "describe": "虹猫蓝兔"
+    }
+  },
+  {
+    "describe": "<b>这首歌来自哪部电影？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ac.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(42-35+1))+35",
+      "describe": "佐罗",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "黄金三镖客"
+    },
+    "C": {
+      "describe": "三个火枪手"
+    }
+  },
+  {
+    "describe": "<b>你做过这个版本的眼保健操吗？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ad.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "做过，一共4节"
+    },
+    "B": {
+      "straw": "Math.floor(Math.random()*(22-18+1))+18",
+      "describe": "做过，一共6节",
+      "bonus": 10
+    },
+    "C": {
+      "straw": "Math.floor(Math.random()*(50-42+1))+42",
+      "describe": "从没做过眼保健操"
+    }
+  },
+  {
+    "describe": "<b>这首歌是谁唱的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ae.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "straw": "Math.floor(Math.random()*(26-15+1))+15",
+      "describe": "吴亦凡",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "华晨宇"
+    },
+    "C": {
+      "describe": "鹿晗"
+    }
+  },
+  {
+    "describe": "<b>你做过这套广播体操吗？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/af.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "straw": "Math.floor(Math.random()*(29-23+1))+23",
+      "describe": "做过！叫《时代在召唤》",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "做过！叫《青春的活力》"
+    },
+    "C": {
+      "describe": "没做过"
+    }
+  },
+  {
+    "describe": "<b>哪一句是这首歌中的歌词？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ag.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "来到了南泥湾"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(45-28+1))+28",
+      "describe": "妹妹你坐船头",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "妹妹你大胆滴往前走"
+    }
+  },
+  {
+    "describe": "<b>这首歌是谁唱的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ah.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "腾格尔"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(35-25+1))+25",
+      "describe": "刀郎",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "刘欢"
+    }
+  },
+  {
+    "describe": "<b>这首歌是？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/Shake_It_Off.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(25-16+1))+16",
+      "describe": "Taylor Swift - Shake It Off",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "P!nk - Just Give Me a Reason"
+    },
+    "C": {
+      "describe": "Britney Spears - Do Somethin'"
+    }
+  },
+  {
+    "describe": "<b>这首歌的演唱者是谁？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/Dont_know_why.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "Adele"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(30-20+1))+20",
+      "describe": "Norah Jones",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "Dido"
+    }
+  },
+  {
+    "describe": "<b>这首歌曲来自？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/my_love.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "后街男孩 Backstreet Boys"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(33-24+1))+24",
+      "describe": "西城男孩 Westlife",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "绿日乐队 Green Day"
+    }
+  },
+  {
+    "describe": "<b>这首神曲叫什么名字？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/ai.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "score": "Math.floor(Math.random()*(23-15+1))+15",
+      "describe": "我的滑板鞋",
+      "bonus": 10
+    },
+    "B": {
+      "describe": "摩擦，摩擦"
+    },
+    "C": {
+      "describe": "魔鬼的步伐"
+    }
+  },
+  {
+    "describe": "<b>《国王与乞丐》是由谁与杨宗纬合作的？</b><br>",
+    "music": "<audio hidden preload class='songs' id='song' src='audios/aj.mp3'></audio>",
+    "playButton": "<button type='button' id='button1' class='btn btn-info btn-sm'><b>暂停</b></button>",
+    "passButton": "<button type='button' id='button2' class='pass btn btn-info btn-sm'><b>没听过，PASS</b></button><div class='pass pass_arrow'></div>",
+    "A": {
+      "describe": "李宇春"
+    },
+    "B": {
+      "score": "Math.floor(Math.random()*(24-15+1))+15",
+      "describe": "华晨宇",
+      "bonus": 10
+    },
+    "C": {
+      "describe": "于湉"
+    }
+  }
+]

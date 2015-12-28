@@ -1,0 +1,81 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Maxim_Xu">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta name="keywords" content="Roland, RolandMusic, 乐商, 音商, 测试">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	<title>暴露年龄的不是脸，是它！听听看，你真的老了吗？</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/fastclick.js"></script>
+	</head>
+<body class="bounceInDown animated noHover">
+    <div style="margin:0 auto;display:none;">
+    <img src="images/share_img.png"/></div>
+    <audio hidden preload id="start_audio" src="audios/4.mp3"></audio>
+	<div id="start">
+	        <div hidden id="randomize">
+				<img src="images/random.gif">
+				<p style="margin-left:7px"><b>正在随机拍题......</b></p>
+			</div>
+		<div id="welcome">
+			<h3 class="logo bounceInDown animatedDelayed"></h3>
+			<p class="prologue bounceInDown animatedDelayed2">点击<span style="color: #E67416"><b>PASS</b></span>可跳过不会的题。<br><br><br>如网速较慢请耐心等待几秒或按键播放音乐。每段音乐不超过10秒，可重复听，戴上耳机效果更好。<br><br><br>那么，准备好暴露年龄了吧。。。</p>
+			<center><button class="btn btn-lg btn-success animatedDelayed3 fadeInUp" id="start_btn">开始测试</button></center>
+		</div>
+		<center>
+		<div class="questions">
+				<div class="questionDes"></div>
+				<p class="notification">如网速较慢请耐心等待或按键播放音乐</p>
+				<div class="centerChoice">
+					<button data-choice="A" id="choiceA" class="choice"></button><br>
+					<button data-choice="B" id="choiceB" class="choice"></button><br>
+					<button data-choice="C" id="choiceC" class="choice"></button>
+				</div>
+		</div>
+		</center>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+<script async>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68397460-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type='text/javascript'>
+(function() {
+    var c = document.createElement('script'); 
+    c.type = 'text/javascript';
+    c.async = true;
+    c.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.clicki.cn/boot/52251';
+    var h = document.getElementsByTagName('script')[0];
+    h.parentNode.insertBefore(c, h);
+})();
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		function setHeight() {
+			windowHeight = $(window).innerHeight();
+			$('#start').css('min-height', windowHeight);
+		};
+		setHeight();
+		$(window).resize(function() {
+			setHeight();
+		});
+		$("body").on("touchmove", false);
+		$('body').on('click', '#restart', function() {
+  ga('send', 'event', 'button', 'replay', 'replay_the_game');
+});
+		$('body').on('click', '#story', function() {
+  ga('send', 'event', 'button', 'lottery', 'lottery');
+});
+	});
+</script>
+</html>
